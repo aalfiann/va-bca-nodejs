@@ -1,7 +1,7 @@
 
 async function defaultRoute (server, options) {
-  server.get('/', async (request, reply) => {
-    return reply.send({ code: '200', message: 'test' })
+  server.get('/test', async (request, reply) => {
+    return reply.send({ code: 200, message: 'test' })
   })
 }
 
